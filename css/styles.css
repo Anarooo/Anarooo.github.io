@@ -1,0 +1,18 @@
+<!DOCTYPE css>
+h1 {
+	color: #0000ff;
+	font-weight: bold;
+}
+.myClassStyle {
+	background-color: #7d44f1
+	font-family: cursive;
+	font-size: 18px;
+	border: 2px solid #000000;
+}
+#myIDStyle {
+	height: 200px;
+	width: 300px;
+	margin: 0;
+	padding: 10px;
+	border: 1px dashed red;
+}
