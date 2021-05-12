@@ -3,7 +3,7 @@ function captchaCheck() {
 	var userInput = document.getElementById("captcha_result").value;
 	if(captchaText === userInput) {
 		alert("Captcha Correct, redirecting.");
-		window.location = "https://anarooo.github.io/index.html" ;
+		window.location.replace("https://anarooo.github.io/index.html") ;
 		}
 	else {
 		alert("Capatcha Incorrect, please try again.");
