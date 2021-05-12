@@ -1,0 +1,20 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<link rel="shortcut icon" href="img/favicon.gif"/>
+		<title>MySite.xyz | Are you a robot?</title>
+	</head>
+	<body>
+		<marquee>Please complete the capatcha below to continue.</marquee>
+		<br>
+		<script type="text/javascript" src="./js/captcha.js"></script>
+		<form onsubmit="return captchaCheck()">
+			<fieldset id="captcha_check">
+				<img src="./capatcha/cap0.jpg" id="capimg" alt="captcha" width="250" height="50"/>
+				<input id="captcha_result" type="text" placeholder="captcha_entry"/>
+				<input type="submit" value="Submit Captcha" id="captcha_send" class="submit_btn"/>
+			</fieldset>
+		</form>
+		<script type="text/javascript" src="./js/captcha_chose.js"></script>
+	</body>
+</html>
